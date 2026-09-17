@@ -4,6 +4,9 @@
 
 ---
 
+#### My Aquarium
+<img src="./aquarium.svg" alt="dynamic aquarium" width="100%" />
+
 #### My Cat
 ```
 .⠀⠀∧_∧
