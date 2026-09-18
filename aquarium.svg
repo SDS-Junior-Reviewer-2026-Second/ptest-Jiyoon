@@ -60,13 +60,13 @@
   <g>
     <g id="fish1">
       <polygon points="-18,0 -30,-9 -30,9" fill="#ff8c42">
-        <animateTransform attributeName="transform" type="rotate" values="18;-18;18" dur="0.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="10;-10;10" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1"/>
       </polygon>
       <ellipse cx="0" cy="0" rx="20" ry="11" fill="#ff9f5a"/>
       <circle cx="12" cy="-3" r="2.5" fill="#fff"/>
       <circle cx="13" cy="-3" r="1.2" fill="#222"/>
     </g>
-    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto"
+    <animateMotion dur="26s" repeatCount="indefinite" rotate="auto" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.167;0.333;0.5;0.667;0.833;1"
       path="M120,120 C260,60 420,60 560,120 C680,170 680,190 560,200 C420,240 260,240 120,200 C40,170 40,150 120,120 Z"/>
   </g>
 
@@ -74,13 +74,13 @@
   <g>
     <g id="fish2">
       <polygon points="-14,0 -24,-7 -24,7" fill="#0fb5ae">
-        <animateTransform attributeName="transform" type="rotate" values="16;-16;16" dur="0.45s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="9;-9;9" dur="1.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1"/>
       </polygon>
       <ellipse cx="0" cy="0" rx="16" ry="9" fill="#1fc9c1"/>
       <circle cx="9" cy="-2" r="2" fill="#fff"/>
       <circle cx="10" cy="-2" r="1" fill="#222"/>
     </g>
-    <animateMotion dur="6.5s" repeatCount="indefinite" rotate="auto"
+    <animateMotion dur="20s" repeatCount="indefinite" rotate="auto" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.167;0.333;0.5;0.667;0.833;1"
       path="M600,90 C500,50 300,50 200,90 C130,120 130,140 200,160 C300,190 500,190 600,160 C660,140 660,120 600,90 Z"/>
   </g>
 
@@ -88,13 +88,13 @@
   <g>
     <g id="fish3">
       <polygon points="-10,0 -18,-5 -18,5" fill="#ff6fa8">
-        <animateTransform attributeName="transform" type="rotate" values="20;-20;20" dur="0.35s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" values="11;-11;11" dur="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1"/>
       </polygon>
       <ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#ff8fbd"/>
       <circle cx="7" cy="-1.5" r="1.6" fill="#fff"/>
       <circle cx="7.6" cy="-1.5" r="0.8" fill="#222"/>
     </g>
-    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto"
+    <animateMotion dur="17s" repeatCount="indefinite" rotate="auto" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" keyTimes="0;0.167;0.333;0.5;0.667;0.833;1"
       path="M250,230 C330,200 470,200 550,230 C590,245 590,255 550,265 C470,285 330,285 250,265 C210,255 210,245 250,230 Z"/>
   </g>
 
