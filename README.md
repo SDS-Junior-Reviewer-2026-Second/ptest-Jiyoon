@@ -6,11 +6,8 @@
 <img src="./aquarium.svg" alt="dynamic aquarium" width="100%" />
 
 #### My Cat
-```
-.⠀⠀∧_∧
-　 ﾐ｡･ω･ﾐ
-～ﾐ_ｕu ﾐ
-```
+<img src="./cat.svg" alt="chilling cat" width="160" />
+
 
 
 This is Jiyoon
@@ -32,6 +29,7 @@ This is Jiyoon
 # 아 조금 징그러운것같으네
 ```
 
+---
 [0914]
 
 오늘 점심 뇨끼 먹을 사람

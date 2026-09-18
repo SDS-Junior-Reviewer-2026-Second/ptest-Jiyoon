@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 130" width="220">
+  <style>
+    text { font-family: 'Consolas', 'Courier New', monospace; font-size: 26px; fill: #333; }
+  </style>
+
+  <!-- ascii cat: whole body, gentle breathing bob -->
+  <g id="asciiCat">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="2.6s" repeatCount="indefinite"/>
+
+    <!-- ears -->
+    <text x="20" y="40" xml:space="preserve">.       ⠀⠀∧ _∧</text>
+
+    <!-- face: eyes open / blink (swap frames) -->
+    <text x="20" y="76" xml:space="preserve">
+      　 ﾐ｡･ω･ﾐ
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.9;0.94;0.98;1" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="20" y="76" xml:space="preserve" opacity="0">
+      　 ﾐ｡-ω-ﾐ
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.9;0.94;0.98;1" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- paws + tail: lazy side-to-side flick -->
+    <text x="20" y="112" xml:space="preserve">
+      ～ﾐ_ｕu ﾐ
+      <animateTransform attributeName="transform" type="translate" values="0,0;4,0;0,0;-4,0;0,0" dur="3.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
